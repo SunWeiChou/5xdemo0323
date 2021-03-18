@@ -1,0 +1,38 @@
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center; 
+    padding: 20px 0;
+    position:fixed;
+    top: 0;
+}
+nav .nav-item_left{
+    font-weight: bold;
+}
+nav a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav a:hover {
+    color: red;
+} 
+nav a img{
+    height: 18px;
+}
+.nav-item-group .nav-item{
+    margin: 0 20px 20px 0;
+}
+.nav-item-group a:hover{
+    border-bottom: 1px solid red;
+}
+.box{
+    width: 100%;
+    height: 1600px;
+    margin-top: 62px;
+    background-color: rgb(131, 166, 241);
+}
