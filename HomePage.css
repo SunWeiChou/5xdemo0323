@@ -126,3 +126,73 @@ nav a img{
     font-size: 16px;
 }
 
+.box3{
+    width: 100%;
+    background-color: #F9FAFB;
+    padding-bottom: 30px;
+}
+.box3 section{
+    width: 920px;
+    color: #394150;
+    padding: 50px;
+    margin: auto ;
+}
+.box3 section h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.box3 section p{
+    font-size: 20px;
+    font-weight:normal;
+}
+.box3 .card{
+    width: 789px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 1px red solid; */
+    color: #B5AA23;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 3px #aaa;
+}
+.card .card-img{
+    width: 165px;
+    height: 400px;
+    padding: 32px 50px 32px 50px;
+}
+
+.card .card-img img{
+    width: 165px;
+    border-radius: 50%;
+}
+.card-other{
+    margin-top: 60px;
+}
+
+.box3 button{
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.box3 button{
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    border: red 1px solid;
+    text-align: center;
+    width: 186px;
+    height: 34px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.box3 button:hover{
+    background-color:rgb(255, 0, 0);
+    color: white;
+}
+
+.course{
+    width: 100%;
+    height: 600px;
+    background-color: #eee;
+}
