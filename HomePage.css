@@ -55,4 +55,15 @@ nav a img{
 }
 .box1-group button{
     font-size: 18px;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 136px;
+    height: 52px;
+    background-color:rgb(255,19,62);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.box1-group button:hover{
+    background-color:rgb(185, 17, 48);
 }
