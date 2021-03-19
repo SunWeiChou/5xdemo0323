@@ -8,6 +8,7 @@ nav{
     padding: 20px 0;
     position:fixed;
     top: 0;
+    box-shadow: 0 0 6px 0 #ccc;
 }
 nav .nav-item_left{
     font-weight: bold;
