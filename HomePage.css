@@ -253,10 +253,9 @@ nav a img{
 
 /* course-recent */
 .course-recent{
-    background-color: #fff;
     background-color: #29303E;
     width: 1392px;
-    margin: 10px auto;
+    margin: 0 auto;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -333,4 +332,62 @@ nav a img{
 }
 .course-recent button:hover{
     background-color:rgb(185, 17, 48);
+}
+/* learnmap */
+.learnmap{
+    background-color: rgb(249,250,251);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 100px 0 50px 0;   
+}
+.learnmap .learnmap-box{
+    width: 1400px;
+    margin: 0 auto;
+}
+.learnmap-box .content{
+    color: #394150;
+    width: 920px;
+    margin-bottom: 50px;
+}
+.learnmap-box .content h2{
+    font-size: 30px;
+}
+.learnmap-box .content p{
+    font-size: 20px;
+}
+.learnmap-box-itemgroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.learnmap-box-itemgroup .item{
+    width: 437px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 2%;
+    color: #394150;
+    box-shadow: 3px 3px 6px 3px #eee;
+}
+.learnmap-box-itemgroup .item-content{
+    padding: 20px;
+}
+.item h3{
+    font-size: 20px;
+}
+.item p{
+    font-size: 16px;
+}
+.item button{
+    color: #FF133E;
+    background-color: #fff;
+    font-size: 16px;
+    border-width: 0;
+    cursor: pointer;
+    margin: 0 0 20px 15px;
+}
+.item button:hover{
+    border-bottom: 1px solid #FF133E;
+}
+.item button::after{
+    content: " ＞";
 }
