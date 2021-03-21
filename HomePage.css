@@ -9,6 +9,7 @@ nav{
     position:fixed;
     top: 0;
     box-shadow: 0 0 6px 0 #ccc;
+    z-index: 1;
 }
 nav .nav-item_left{
     font-weight: bold;
@@ -35,6 +36,8 @@ nav a img{
 /* box1 */
 
 .box1{
+    background-blend-mode: multiply;
+    background-color: rgba(24, 30, 45, 0.75);
     width: 100%;
     height: 530px;
     margin-top: 62px;
@@ -42,17 +45,16 @@ nav a img{
     flex-wrap: wrap;
     justify-content: flex-start;
     background-image: url(/pic/banner-home-aca80ad097b4d77ffa3b82879b5d14a8.jpg);
-    background-color: rgb(0, 0, 0);
     background-size: cover;
 /* 不懂 */
     background-repeat: no-repeat; /*背景圖不重複*/
     /* background-position: center top; */
     /* position: relative; */
-     /* clip-path: polygon(0px 0px, 100% 0px, 100% 78%, 30% 100%, 0px 85%); 描述頂點位置 */
+    clip-path: polygon(0px 0px, 100% 0px, 100% 70%, 35% 100%, 0px 70%); /*描述頂點位置 */
 }
 
 .box1-group{
-    margin: 112px 0 0 217px;
+    margin: 112px 0 0 450px;
     color: #fff;
     /* background-color: #eee; */
 }
@@ -193,7 +195,7 @@ nav a img{
 }
 .course{
     width: 100%;
-    height: 600px;
+    height: 1600px;
     background-color: #29303E;
 }
 
@@ -226,6 +228,7 @@ nav a img{
     color: #fff;
     padding: 100px 20px;
     clip-path: polygon(0 20%, 70% 0, 100% 20%, 100% 80%,30% 100%,0 80%);
+    z-index: 0;
 }
 
 .course-short h3{
@@ -249,3 +252,25 @@ nav a img{
     content: " ＞";
 }
 
+/* course-recent */
+.course-recent{
+    background-color: #29303E;
+    display: flex;
+    justify-content: center;
+}
+.course-recent .item-group{
+    width: 1392px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(85, 35, 35);
+    justify-content: space-between;
+}
+.item-group .item{
+    width: 437px;
+    height: 337px;
+    border: #FF133E 1px solid;
+
+}
+.item img{
+    width: 100%;
+}
