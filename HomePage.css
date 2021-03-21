@@ -281,7 +281,7 @@ nav a img{
 }
 .item img{
     width: 100%;
-    border-radius: 2%;
+    border-radius: 2% 2% 0 0;
 }
 .item .item-classdate{
     box-sizing: border-box;
@@ -436,9 +436,41 @@ nav a img{
     height: 40px;
     border-radius: 50%;
 }
-
-/* footer */
 footer{
+    box-sizing: border-box;
+    background-color: #29303E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px 150px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #FF133E;
+}
+footer li{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.footer-left{
+    margin-top: 50px;
+}
+.footer-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.footer-right .link-item{
+    margin: 50px 80px;
+}
+
+/* copyright */
+.copyright{
     background-color: #181E2D;
     width: 100%;
     font-size: 0.875rem;
