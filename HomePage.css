@@ -436,3 +436,16 @@ nav a img{
     height: 40px;
     border-radius: 50%;
 }
+
+/* footer */
+footer{
+    background-color: #181E2D;
+    width: 100%;
+    font-size: 0.875rem;
+    color: #A0A6B1;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.25rem;
+    padding: 20px;
+    box-sizing: border-box;
+}
