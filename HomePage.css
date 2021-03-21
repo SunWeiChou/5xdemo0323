@@ -391,3 +391,48 @@ nav a img{
 .item button::after{
     content: " ＞";
 }
+/* student */
+.student{
+    padding: 50px 0 100px 0;
+}
+.student h2{
+    text-align: center;
+    font-size: 30px;
+    color: #394150;
+    margin-bottom: 60px;
+}
+.student-itemgroup{
+    display: flex;
+    width: 1468px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.student-item{
+    box-sizing: border-box;
+    box-shadow:3px 3px 6px 3px #eee;
+    border-radius: 2%;
+    width: 342px;
+    padding: 25px;
+    align-self: start;
+    
+}
+.student-item p{
+    margin: 0;
+    padding: 0;
+    color: #394150;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.student-id{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    align-items: center;
+    color: #394150;
+}
+.student-id img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
