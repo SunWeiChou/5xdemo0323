@@ -33,9 +33,9 @@ nav a img{
     border-bottom: 1px solid red;
 }
 
-/* box1 */
+/* header */
 
-.box1{
+.header{
     background-blend-mode: multiply;
     background-color: rgba(24, 30, 45, 0.75);
     width: 100%;
@@ -53,21 +53,21 @@ nav a img{
     clip-path: polygon(0px 0px, 100% 0px, 100% 70%, 35% 100%, 0px 70%); /*描述頂點位置 */
 }
 
-.box1-group{
+.header-group{
     margin: 112px 0 0 450px;
     color: #fff;
     /* background-color: #eee; */
 }
-.box1-group h1{
+.header-group h1{
     font-size: 60px;
     display: inline-block;
     margin: 0 0 15px 0;
 }
-.box1-group p{
+.header-group p{
     font-size: 20px;
     margin: 0 0 67px 0;
 }
-.box1-group button{
+.header-group button{
     font-size: 18px;
     color: white;
     border: none;
@@ -78,19 +78,19 @@ nav a img{
     border-radius: 4px;
     cursor: pointer;
 }
-.box1-group button:hover{
+.header-group button:hover{
     background-color:rgb(185, 17, 48);
 }
 
-/* Box2 */
-.box2{
+/* container */
+.container{
     /* background-color: rgb(255, 0, 0); */
     width: 100%;
     height: 600px;
     text-align: center;
     /* clip-path: polygon(0px 30%, 100% 0px, 100% 78%, 30% 100%, 0px 85%) margin-box; */
 }
-.box2 h1{
+.container h1{
     font-size: 30px;
     color: #394150;
     font-weight: bold;
@@ -98,19 +98,19 @@ nav a img{
     padding: 0;
     margin: 80px auto 30px;
 }
-.box2 p{
+.container p{
     font-size: 20px;
     color: #394150;
     padding: 0;
     margin: 0;
 }
 
-.box2 .span{
+.container .span{
     border-bottom: red 2px solid;
     padding-bottom: 10px;
 }
 
-.box2-item-group{
+.container-item-group{
     /* background-color: rgb(156, 93, 93); */
     display: flex;
     width: 1200px;
@@ -120,41 +120,41 @@ nav a img{
     margin: 67px auto 0;
 }
 
-.box2-item{
+.container-item{
     /* border: 1px red solid; */
     color: #394150;
 }
 
-.box2-item img{
+.container-item img{
     width: 200px;
 }
-.box2-item h3{
+.container-item h3{
     font-size: 18px;
     font-weight: bold;
 }
-.box2-item p{
+.container-item p{
     font-size: 16px;
 }
-
-.box3{
+/* teacher */
+.teacher{
     width: 100%;
     background-color: #F9FAFB;
     padding-bottom: 30px;
 }
-.box3 section{
+.teacher section{
     width: 920px;
     color: #394150;
     padding: 50px;
     margin: auto ;
 }
-.box3 section h2{
+.teacher section h2{
     font-size: 30px;
     font-weight: bold;
 }
-.box3 section p{
+.teacher section p{
     font-size: 20px;
 }
-.box3 .card{
+.teacher .card{
     width: 789px;
     height: 450px;
     margin: 0 auto;
@@ -176,7 +176,7 @@ nav a img{
 .card-other{
     margin-top: 60px;
 }
-.box3 button{
+.teacher button{
     font-size: 16px;
     margin-top: 5px;
     margin-right: 30px;
@@ -189,7 +189,7 @@ nav a img{
     border-radius: 4px;
     cursor: pointer;
 }
-.box3 button:hover{
+.teacher button:hover{
     background-color:rgb(255, 0, 0);
     color: white;
 }
