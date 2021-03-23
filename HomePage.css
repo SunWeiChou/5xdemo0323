@@ -16,15 +16,18 @@ nav .nav-item_left{
 }
 nav a{
     font-size: 18px;
-    color: black;
+    color: #181E2D;
     text-decoration: none;
     margin-left: 20px;
 }
 nav a:hover {
     color: red;
 } 
+
 nav a img{
-    height: 18px;
+    width: 40px;
+    height: 24px;
+    vertical-align: bottom;
 }
 .nav-item-group .nav-item{
     margin: 0 20px 20px 0;
@@ -54,13 +57,14 @@ nav a img{
 }
 
 .header-group{
-    margin: 112px 0 0 450px;
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     color: #fff;
-    /* background-color: #eee; */
 }
 .header-group h1{
     font-size: 60px;
-    display: inline-block;
     margin: 0 0 15px 0;
 }
 .header-group p{
@@ -84,7 +88,6 @@ nav a img{
 
 /* container */
 .container{
-    /* background-color: rgb(255, 0, 0); */
     width: 100%;
     height: 600px;
     text-align: center;
@@ -111,7 +114,6 @@ nav a img{
 }
 
 .container-item-group{
-    /* background-color: rgb(156, 93, 93); */
     display: flex;
     width: 1200px;
     flex-wrap: wrap;
@@ -121,7 +123,6 @@ nav a img{
 }
 
 .container-item{
-    /* border: 1px red solid; */
     color: #394150;
 }
 
@@ -159,8 +160,6 @@ nav a img{
     height: 450px;
     margin: 0 auto;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* border: 1px red solid; */
     border-radius: 5px;
     box-shadow: 3px 1px 6px 3px #ddd;
 }
